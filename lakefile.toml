@@ -1,0 +1,7 @@
+name = "lupanov"
+version = "0.1.0"
+defaultTargets = ["Lupanov"]
+
+[[lean_lib]]
+name = "Lupanov"
+roots = ["Lupanov", "Network", "Strips", "Semantics", "Bounds"]
